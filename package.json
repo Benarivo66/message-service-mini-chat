@@ -2,11 +2,11 @@
   "name": "message-service-mini-chat",
   "version": "1.0.0",
   "description": "Message service for mini chat app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
