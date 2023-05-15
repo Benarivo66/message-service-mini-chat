@@ -20,7 +20,7 @@ services:
     volumes:
       - .:/usr/src/app
     environment:
-      MONGODB_URL: mongodb://mongo:27017/minichat-message-MS
+      MONGO_URL: mongodb://mongo:27017/minichat-message-MS
       PORT: 3002
       JWT_SECRET: somesecrets
       SERVER_PORT: 3001
